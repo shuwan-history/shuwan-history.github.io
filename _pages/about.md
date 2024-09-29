@@ -9,9 +9,9 @@ profile:
   image: prof.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>546 Park Hall</p>
+    <p>Buffalo, NY 14260-4130</p>
+    <p>(716) 645-2182</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
