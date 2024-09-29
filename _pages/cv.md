@@ -9,14 +9,14 @@ description: This is a description of the page. You can modify it in 'pages/_cv.
 toc: 
   sidebar: left
 
-{{ site.data.cv }}
-# ---
+# {{ site.data.cv }}
+# # ---
 
-## Education
-- **PhD in History**, University at Buffalo (2021 - Present)
-# - **B.Sc in Mathematics**, Another University (2017 - 2021)
+# ## Education
+# - **PhD in History**, University at Buffalo (2021 - Present)
+# # - **B.Sc in Mathematics**, Another University (2017 - 2021)
 
-## Experience
-# - **Software Engineer Intern**, Google (Summer 2020)
-- **Teaching Assistant**, University at Buffalo (Fall 2021 - Present)
+# ## Experience
+# # - **Software Engineer Intern**, Google (Summer 2020)
+# - **Teaching Assistant**, University at Buffalo (Fall 2021 - Present)
 
