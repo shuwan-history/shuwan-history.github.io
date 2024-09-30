@@ -39,11 +39,43 @@
   "education": [
     {
       "institution": "University at Buffalo",
-      "url": "https://www.uzh.ch/",
+      "url": "https://arts-sciences.buffalo.edu/history/graduate/GraduateHistoryAssociation/GradStudentProfiles/ShuWan.html",
       "area": "History",
       "studyType": "PhD",
       "startDate": "2020",
       "endDate": "2026"
+    },
+    {
+      "institution": "University of Iowa ",
+      "url": "https://slis.uiowa.edu",
+      "area": "Library and Information Science",
+      "studyType": "Master's",
+      "startDate": "2019",
+      "endDate": "2021"
+    },
+    {
+      "institution": "University of Iowa",
+      "url": "https://history.uiowa.edu",
+      "area": "History",
+      "studyType": "Master's",
+      "startDate": "2015",
+      "endDate": "2019"
+    },
+    {
+      "institution": "Northeast Normal University (NENU), China",
+      "url": "https://en.nenu.edu.cn",
+      "area": "History",
+      "studyType": "Master's",
+      "startDate": "2013",
+      "endDate": "2016"
+    },
+    {
+      "institution": "Northeast Normal University (NENU), China",
+      "url": "https://en.nenu.edu.cn",
+      "area": "History",
+      "studyType": "Bachelor's",
+      "startDate": "2009",
+      "endDate": "2013"
     }
   ],
   "awards": [
