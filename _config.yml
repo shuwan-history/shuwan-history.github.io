@@ -297,7 +297,10 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: 
+  - entrytype  # Group by BibTeX entry type (e.g., article, book, etc.)
+  - year  
+  # year
   group_order: descending
 
 badges: # Display different badges for your publications
