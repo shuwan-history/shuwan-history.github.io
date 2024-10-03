@@ -30,7 +30,7 @@ highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-them
 highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
-repo_theme_light: nightowl # default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
@@ -282,7 +282,9 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: 
+  - papers.bib
+  - books.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -297,7 +299,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by:  type # year
   group_order: descending
 
 badges: # Display different badges for your publications
