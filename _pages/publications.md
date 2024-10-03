@@ -12,7 +12,7 @@ nav_order: 1
 
 # Table of Contents
 - [Peer-reviewed Publications in English](#peer-reviewed-publications-in-english)
-- [Preprints](#preprints)
+- [Book Reviews in English](#book-reviews-in-english)
 - [Business Journals](#business-journals)
 - [Healthcare and Sociology Journals](#healthcare-and-sociology-journals)
 
@@ -30,7 +30,7 @@ nav_order: 1
 </div>
 
 ---
-## **Preprints**
+## **Book Reviews in English**
 <!-- _pages/publications.md -->
 <div class="preprints">
 
