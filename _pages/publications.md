@@ -5,6 +5,8 @@ title: publications
 description: 
 nav: true
 nav_order: 1
+toc:
+  sidebar: left
 ---
 
  \* correponding author,  † student under my supervision
