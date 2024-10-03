@@ -5,13 +5,16 @@ title: publications
 description: 
 nav: true
 nav_order: 1
-toc:
-  sidebar: left
 ---
 
  \* correponding author,  † student under my supervision
 
 
+# Table of Contents
+- [Peer-reviewed Publications in English](#peer-reviewed-publications-in-english)
+- [Preprints](#preprints)
+- [Business Journals](#business-journals)
+- [Healthcare and Sociology Journals](#healthcare-and-sociology-journals)
 
 
 
