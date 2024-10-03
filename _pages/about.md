@@ -7,7 +7,7 @@ permalink: /
 profile:
   align: right
   image: pro.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>546 Park Hall</p>
     <p>Buffalo, NY 14260-4130</p>
