@@ -23,7 +23,7 @@ nav_order: 1
 
 
 ---
-## **Machine Learning Conferences and Journals**
+## **Peer-reviewed Publications in English**
 <!-- _pages/publications.md -->
 <div class="publications">
 
