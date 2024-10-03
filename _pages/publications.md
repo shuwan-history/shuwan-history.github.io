@@ -12,14 +12,7 @@ nav_order: 1
 
 
 
----
-## **Preprints**
-<!-- _pages/publications.md -->
-<div class="preprints">
 
-{% bibliography --file preprints %}
-
-</div>
 
 
 ---
@@ -31,7 +24,14 @@ nav_order: 1
 
 </div>
 
+---
+## **Preprints**
+<!-- _pages/publications.md -->
+<div class="preprints">
 
+{% bibliography --file preprints %}
+
+</div>
 
 ---
 
