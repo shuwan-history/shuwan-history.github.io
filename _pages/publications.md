@@ -12,7 +12,6 @@ nav_order: 1
 
 # Table of Contents
 - [Peer-reviewed Publications in English](#peer-reviewed-publications-in-english)
-- [Book Reviews in English](#book-reviews-in-english)
 - [Professional (mainly for library workers) and Public Writings in English](#professional-mainly-for-library-workers-and-public-writings-in-english)
 - [Academic Publications in Chinese](#academic-publications-in-chinese)
 
@@ -31,15 +30,6 @@ nav_order: 1
 </div>
 
 ---
-[comment]: <## **Book Reviews in English**
-<!-- _pages/publications.md -->
-<div class="books">
-
-{% bibliography --file books %}
-
-</div>
-
---->
 
 
 ## **Professional (mainly for library workers) and Public Writings in English**
