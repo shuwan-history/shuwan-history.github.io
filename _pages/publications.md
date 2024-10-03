@@ -54,8 +54,8 @@ nav_order: 1
 
 ## **Academic Publications in Chinese**
 <!-- _pages/publications.md -->
-<div class="publications_healthcare">
+<div class="publications_chinese">
 
-{% bibliography --file healthcare %}
+{% bibliography --file chinese %}
 
 </div>
