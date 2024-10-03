@@ -1,20 +1,20 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: 
 description: 
 nav: true
 nav_order: 1
 ---
 
- \* correponding author,  † student under my supervision
+
 
 
 # Table of Contents
 - [Peer-reviewed Publications in English](#peer-reviewed-publications-in-english)
 - [Book Reviews in English](#book-reviews-in-english)
-- [Business Journals](#business-journals)
-- [Healthcare and Sociology Journals](#healthcare-and-sociology-journals)
+- [Professional (mainly for library workers) and Public Writings in English](#professional-(-mainly-for-library-workers-)-and-public-writings-in-english )
+- [Academic Publications in Chinese](#academic-publications-in-chinese)
 
 
 
@@ -41,7 +41,7 @@ nav_order: 1
 ---
 
 
-## **Business Journals**
+## **Professional (mainly for library workers) and Public Writings in English**
 <!-- _pages/publications.md -->
 <div class="publications_business">
 
@@ -51,7 +51,7 @@ nav_order: 1
 
 ---
 
-## **Healthcare and Sociology Journals**
+## **Academic Publications in Chinese**
 <!-- _pages/publications.md -->
 <div class="publications_healthcare">
 
