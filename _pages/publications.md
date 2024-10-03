@@ -33,9 +33,9 @@ nav_order: 1
 ---
 ## **Book Reviews in English**
 <!-- _pages/publications.md -->
-<div class="preprints">
+<div class="books">
 
-{% bibliography --file preprints %}
+{% bibliography --file books %}
 
 </div>
 
