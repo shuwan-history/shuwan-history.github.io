@@ -7,9 +7,44 @@ nav: true
 nav_order: 1
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
+<!-- _pages/publications.md --> 
+
+<!-- <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
+
+</div> -->
+
+<div class="publications">
+
+### Papers
+{% assign papers_entries = site.scholar.bibliography | bibtex_to_array: "papers.bib" %}
+{% assign categorized_papers_entries = papers_entries | categorize_bibliography %}
+
+{% for type, entries in categorized_papers_entries %}
+  <h2>{{ type | capitalize }}</h2>
+  <ul>
+    {% for entry in entries %}
+      <li>
+        <strong>{{ entry.author }}</strong> ({{ entry.year }}): {{ entry.title }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+### Book Reviews
+{% assign books_entries = site.scholar.bibliography | bibtex_to_array: "books.bib" %}
+{% assign categorized_books_entries = books_entries | categorize_bibliography %}
+
+{% for type, entries in categorized_books_entries %}
+  <h2>{{ type | capitalize }}</h2>
+  <ul>
+    {% for entry in entries %}
+      <li>
+        <strong>{{ entry.author }}</strong> ({{ entry.year }}): {{ entry.title }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
 </div>
