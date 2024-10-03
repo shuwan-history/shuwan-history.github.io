@@ -31,7 +31,7 @@ nav_order: 1
 </div>
 
 ---
-## **Book Reviews in English**
+[comment]: <## **Book Reviews in English**
 <!-- _pages/publications.md -->
 <div class="books">
 
@@ -39,7 +39,7 @@ nav_order: 1
 
 </div>
 
----
+--->
 
 
 ## **Professional (mainly for library workers) and Public Writings in English**
