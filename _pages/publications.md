@@ -6,29 +6,10 @@ description: # publications by categories in reversed chronological order. gener
 nav: true
 nav_order: 1
 ---
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
-</div> -->
-
-<!-- _pages/publications.md
-<div class="publications">
-
-<h2>Peer-reviewed Publications in English</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[type = {article}]%}
-
-<h2>Academic Publications in Chinese</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[type = {Academic Publications in Chinese}] %}
-
-<h2>Professional (mainly for library workers) and Public Writings in English</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[type = { Professional (mainly for library workers)}] %}
-
-<h2>Book Reviews in English</h2>
-{% bibliography -f {{ site.scholar.bibliography }} -q @bookreviews %}
-
-
-<!-- 根据需要添加更多类型 -->
-
-</div> -->
+</div>
