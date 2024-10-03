@@ -44,9 +44,9 @@ nav_order: 1
 
 ## **Professional (mainly for library workers) and Public Writings in English**
 <!-- _pages/publications.md -->
-<div class="publications_business">
+<div class="publications_profession">
 
-{% bibliography --file business %}
+{% bibliography --file profession %}
 
 </div>
 
