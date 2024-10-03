@@ -9,9 +9,31 @@ nav_order: 1
 
 <!-- _pages/publications.md --> 
 
-<div class="publications">
+<!-- <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
+</div> -->
+
+
+---
+## **Peer-reviewed Publications in English**
+<!-- _pages/publications.md -->
+<div class="peer">
+
+{% bibliography --file peer %}
+
 </div>
+
+
+---
+## **Book Reviews in English**
+<!-- _pages/publications.md -->
+<div class="publications">
+
+{% bibliography -f {{site.scholar.bibliography}} %}
+
+</div>
+
+
 
