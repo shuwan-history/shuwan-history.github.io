@@ -5,13 +5,12 @@
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
             class="preview z-depth-1 rounded"
-            zoomable=true
             alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
@@ -31,12 +30,12 @@
         <div id="{{entry.key}}" class="col-sm-8">
         <!-- Title -->
         <div class="title">
-          {% if entry.url %}
-            <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
-          {% else %}
-            {{ entry.title }}
-          {% endif %}
-        </div>
+        {% if entry.url %}
+          <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
+        {% else %}
+          {{ entry.title }}
+        {% endif %}
+      </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
@@ -69,7 +68,11 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}</em>
+            {%- if entry.corresponding_author -%}
+              <strong>{{author.first}} {{author.last}}*</strong>
+            {%- else -%}
+              <strong>{{author.first}} {{author.last}}</strong>
+            {%- endif -%}
           {%- else -%}
             {%- if coauthor_url -%}
               <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -236,5 +239,16 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+          <style>
+            .highlight {
+              font-weight:bolder;
+              color: var(--global-theme-color) !important;
+              background-color: var(--global-code-bg-color);
+            }
+          </style>
+                <!-- Award -->
+                <div class="award"><p><span class = "highlight">{{entry.award}}</span></p></div>
         </div>
+
+
       </div>
