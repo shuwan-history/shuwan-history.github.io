@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[Shu Wan](https://arts-sciences.buffalo.edu/history/graduate/GraduateHistoryAssociation/GradStudentProfiles/ShuWan.html) is currently matriculated as a doctoral student in history at the University at Buffalo. As a digital and disability historian, he serves in the editorial team of Digital Humanities Quarterly and Nursing Clio.
+[Shu Wan](https://arts-sciences.buffalo.edu/history/graduate/GraduateHistoryAssociation/GradStudentProfiles/ShuWan.html) is currently matriculated as a doctoral student in history at the University at Buffalo. As a digital and disability historian, he currently serves on the editorial teams of Digital Humanities Quarterly and Nursing Clio, JOunral of International Students, and H- History-and-Theory.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
