@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Winter 2023 Asian Civilizations 2 (HIS 182)
+Winter 2023 Asian Civilizations 2 (HIS 182) Course Instructor
 
 Shu served as the primary instructor for the lower-level course on Asian history with 14 students. The class met five times a week for 3 hours during a 4-week winter term. Shu was responsible for creating and delivering all lecture material. Final grades were calculated as the following:  15% for engagement (in-class and Padlet participation), 10% for attendance quiz, 10% for cluster 1 assignment (Tik-Tok presentation or Twine writing), 10 % for cluster 2 assignment (Text2vecing or Voyanting Assignment), and 55% for the final project movie review (including a 3-page essay, Class Presentation, and peer review on Perusal). Shu calculated the participation grade by noting how many meaningful contributions each student made during class discussions.
 
