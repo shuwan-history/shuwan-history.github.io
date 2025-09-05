@@ -12,7 +12,7 @@ nav_order: 1
 
 # Table of Contents
 - [Peer-reviewed Publications in English](#peer-reviewed-publications-in-english)
-- [Publication Regarding Artifical Intelligence and Digital Humanities] (#publication-regarding-artifical-intelligence-and-digital-humanities)
+- [Publication Regarding Artifical Intelligence and Digital Humanities](#publication-regarding-artifical-intelligence-and-digital-humanities)
 - [Professional (mainly for library workers) and Public Writings in English](#professional-mainly-for-library-workers-and-public-writings-in-english)
 - [Academic Publications in Chinese](#academic-publications-in-chinese)
 
