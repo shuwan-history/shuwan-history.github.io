@@ -33,7 +33,7 @@ nav_order: 1
 ---
 ## **Publication Regarding Artifical Intelligence and Digital Humanities**
 <!-- _pages/publications.md -->
-<div class="publications_dh">
+<div class="publications">
 
 {% bibliography --file dh %}
 
@@ -44,7 +44,7 @@ nav_order: 1
 
 ## **Professional (mainly for library workers) and Public Writings in English**
 <!-- _pages/publications.md -->
-<div class="publications_profession">
+<div class="publications">
 
 {% bibliography --file profession %}
 
@@ -54,7 +54,7 @@ nav_order: 1
 
 ## **Academic Publications in Chinese**
 <!-- _pages/publications.md -->
-<div class="publications_chinese">
+<div class="publications">
 
 {% bibliography --file chinese %}
 
