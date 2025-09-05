@@ -35,7 +35,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications_dh">
 
-{% bibliography -f {{site.scholar.bibliography}} %}
+{% bibliography --file dh %}
 
 </div>
 
